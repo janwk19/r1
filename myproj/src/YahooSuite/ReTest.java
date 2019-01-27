@@ -25,12 +25,12 @@ public class ReTest extends MainClass
 	{
 		if(str.matches("firefox"))
 		  {
-			    System.setProperty("webdriver.gecko.driver","d:\\janwk05\\myproj\\geckodriver.exe");
+			    System.setProperty("webdriver.gecko.driver","d:\\janwk05\\mylocalrep\\myproj\\geckodriver.exe");
 				driver=new FirefoxDriver();
 		  }
 		  if(str.matches("chrome"))
 		  {
-			    System.setProperty("webdriver.chrome.driver","d:\\janwk05\\myproj\\chromedriver.exe");
+			    System.setProperty("webdriver.chrome.driver","d:\\janwk05\\mylocalrep\\myproj\\chromedriver.exe");
 				driver=new ChromeDriver();
 		  }
 		FileInputStream fin = new FileInputStream("D:\\janwk05\\testcases.xlsx");
